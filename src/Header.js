@@ -13,26 +13,10 @@ const Header = ( {FeaturesRef, HowItWorksCardRef, PricingRef} ) => {
       PricingRef.current.scrollIntoView({ behavior: 'smooth' });
     };
 
-    const handleDownload = () => {
-      fetch("https://gondolin-app.s3.us-east-2.amazonaws.com/Gondolin-1.0.4-arm64.dmg")
-        .then(response => response.blob())
-        .then(blob => {
-          console.log(blob)
-          const link = document.createElement('a');
-          link.href = URL.createObjectURL(blob);
-          link.download = "Gondolin.dmg";
-          link.click();
-  
-          // Clean up
-          URL.revokeObjectURL(link.href);
-        })
-        .catch(e => console.error(e));
-    };
-
     return (
         <div className="flex flex-row justify-between items-center bg-slate-200 py-2">
           <div className='flex flex-row items-center ml-6'>
-            <img src={logo} className='ml-4 w-20 h-auto'/>
+            <img alt="" src={logo} className='ml-4 w-20 h-auto'/>
           </div>
           <div className='flex flex-row items-center gap-12'>
             <div className='font-semibold text-lg cursor-pointer' onClick={scrollToFeatures}>

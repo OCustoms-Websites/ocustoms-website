@@ -21,9 +21,9 @@ const Features = React.forwardRef((props, ref) => {
             <div className="flex flex-col gap-[150px]">
                 <div className="flex flex-row gap-[200px] items-center">
                     <div>  
-                        <img src={DSA} className='rounded-lg w-[350px]'/>
-                        <img src={recruiter} className='rounded-lg w-[350px] mt-4'/>
-                        <img src={ww1} className='rounded-lg w-[350px] mt-4'/>
+                        <img alt="" src={DSA} className='rounded-lg w-[350px]'/>
+                        <img alt="" src={recruiter} className='rounded-lg w-[350px] mt-4'/>
+                        <img alt="" src={ww1} className='rounded-lg w-[350px] mt-4'/>
                     </div>
                     <div className='flex flex-col w-[300px]'>
                         <div className='font-black text-xl text-center text-blue-700'>
@@ -44,18 +44,18 @@ const Features = React.forwardRef((props, ref) => {
                         </div>
                     </div>
                     <div>
-                        <img src={openai} className='rounded-lg w-[250px] ml-24'/>
+                        <img alt="" src={openai} className='rounded-lg w-[250px] ml-24'/>
                     </div>
                 </div>
                 <div className="flex flex-row gap-[200px] items-center">
                     <div className='flex flex-col ml-8'>
                         <div className='flex flex-row'>
-                            <img src={chrome} className='rounded-lg h-[100px]'/>
-                            <img src={edge} className='rounded-lg h-[100px] ml-6'/>
+                            <img alt="" src={chrome} className='rounded-lg h-[100px]'/>
+                            <img alt="" src={edge} className='rounded-lg h-[100px] ml-6'/>
                         </div>
                         <div className='flex flex-row mt-6'>
-                            <img src={brave} className='rounded-lg h-[100px]'/>
-                            <img src={opera} className='rounded-lg h-[100px] ml-1'/>
+                            <img alt="" src={brave} className='rounded-lg h-[100px]'/>
+                            <img alt="" src={opera} className='rounded-lg h-[100px] ml-1'/>
                         </div>
                     </div>
                     <div className='flex flex-col w-[300px] ml-20'>

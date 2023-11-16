@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="bg-white p-6">
                     <div className='flex justify-between'>
                         <div className='flex flex-row items-center'>
-                            <img src={logo} className='ml-4 w-20 h-auto'/>
+                            <img alt="" src={logo} className='ml-4 w-20 h-auto'/>
                             <div className='flex font-semibold items-center ml-1 text-blue-700'>Gondolin</div>
                         </div>
                         <div className='flex flex-col'>
