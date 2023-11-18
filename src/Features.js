@@ -11,7 +11,7 @@ import React from 'react';
 
 const Features = React.forwardRef((props, ref) => {
     return(
-        <div ref={ref} className="flex flex-col items-center px-10 pb-24 bg-white mt-8 pt-10">
+        <div ref={ref} className="flex flex-col items-center px-10 pb-24 bg-white mt-16 pt-10">
             <div className="text-center font-semibold text-blue-700 mb-4 text-xs">
                 FEATURES
             </div>
