@@ -10,7 +10,7 @@ const Home = () => {
                 Leverage GPT-4 to command your concentration and carve out distraction-free digital spaces.
             </div>
             <div className='mt-8'>
-                <video src={platform_demo} controls className='w-[600px] h-auto rounded-lg shadow-slate-400 shadow-md mb-10'/>
+                <video src={platform_demo} controls className='w-[600px] h-auto rounded-lg shadow-slate-400 shadow-md mb-16'/>
             </div>
         </div>
     )
