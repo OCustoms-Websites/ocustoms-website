@@ -18,7 +18,7 @@ const Header = ( {FeaturesRef, HowItWorksCardRef, PricingRef} ) => {
           <div className='flex flex-row items-center ml-6'>
             <img alt="" src={logo} className='ml-4 w-20 h-auto'/>
           </div>
-          <div className='flex flex-row items-center gap-12'>
+          <div className='flex flex-row items-center gap-10 ml-10'>
             <div className='font-semibold text-lg cursor-pointer' onClick={scrollToFeatures}>
               Features
             </div>

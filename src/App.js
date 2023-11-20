@@ -12,7 +12,7 @@ const App = () => {
   const PricingRef = useRef(null);
 
   return (
-    <div className='bg-slate-200 font-[avenir] overflow-y-scroll min-h-screen'>
+    <div className='bg-slate-200 font-[avenir] overflow-y-scroll min-h-screen overflow-x-hidden'>
       <div className='fade-in'>
         <Header FeaturesRef={FeaturesRef} HowItWorksCardRef={HowItWorksCardRef} PricingRef={PricingRef}/>
         <Home />
