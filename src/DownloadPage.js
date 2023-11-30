@@ -23,7 +23,3 @@ const DownloadPage = () => {
 }
 
 export default DownloadPage
-
-{/* <a href="https://gondolin-app.s3.us-east-2.amazonaws.com/Gondolin-1.0.4-arm64.dmg" download="Gondolin.dmg" className="py-3 px-6 mr-4 font-semibold rounded-lg bg-blue-700 text-white">
-              Download Mac
-            </a> */}
