@@ -1,4 +1,5 @@
 import logo from './images/gdln_desktop.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -8,9 +9,9 @@ const Footer = () => {
                     <div className="flex ml-16 text-3xl text-white font-bold items-center">
                         Empower Your Browsing Today with Gondolin.
                     </div>
-                    <a href="https://gondolin-app.s3.us-east-2.amazonaws.com/Gondolin-1.0.4-arm64.dmg" download="Gondolin.dmg" className="flex text-blue-700 bg-white py-4 px-6 rounded-lg text-l mr-24 font-semibold items-center">
+                    <Link to="/download" className="flex text-blue-700 bg-white py-4 px-6 rounded-lg text-l mr-24 font-semibold items-center">
                         Try it Now
-                    </a>
+                    </Link>
                 </div>
                 <div className="bg-white p-6">
                     <div className='flex justify-between'>

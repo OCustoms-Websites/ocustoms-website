@@ -1,27 +1,17 @@
-import Header from './Header';
-import Home from './Home';
-import Features from './Features';
-import HowItWorks from './HowItWorks';
-import Pricing from './Pricing';
-import Footer from './Footer';
-import { useRef } from 'react';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './HomePage';
+import DownloadPage from './DownloadPage';
 
 const App = () => {
-  const FeaturesRef = useRef(null);
-  const HowItWorksCardRef = useRef(null);
-  const PricingRef = useRef(null);
 
   return (
-    <div className='bg-slate-200 font-[avenir] overflow-y-scroll min-h-screen overflow-x-hidden'>
-      <div className='fade-in'>
-        <Header FeaturesRef={FeaturesRef} HowItWorksCardRef={HowItWorksCardRef} PricingRef={PricingRef}/>
-        <Home />
-        <Features ref={FeaturesRef}/>
-        <HowItWorks ref={HowItWorksCardRef}/>
-        <Pricing ref={PricingRef}/>
-        <Footer />
-      </div>
-    </div>
+    <Router>
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/download" element={<DownloadPage />} />
+        </Routes>
+    </Router>
   );
 }
 

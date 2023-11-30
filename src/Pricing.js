@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Pricing = React.forwardRef((props, ref) => {
     return (
@@ -28,9 +29,9 @@ const Pricing = React.forwardRef((props, ref) => {
                 <div className=" mb-8">
                     GPT-4 Focus Assistant
                 </div>
-                <a href="https://gondolin-app.s3.us-east-2.amazonaws.com/Gondolin-1.0.4-arm64.dmg" download="Gondolin.dmg" className="py-2 px-36 bg-blue-700 text-white items-center rounded-lg">
+                <Link to="/download" className="py-2 px-36 bg-blue-700 text-white items-center rounded-lg">
                     Get Started
-                </a>
+                </Link>
 
             </div>
 

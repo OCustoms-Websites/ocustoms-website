@@ -1,4 +1,5 @@
 import logo from './images/gdln_desktop.png'
+import { Link } from 'react-router-dom';
 
 const Header = ( {FeaturesRef, HowItWorksCardRef, PricingRef} ) => {
     const scrollToFeatures = () => {
@@ -28,9 +29,9 @@ const Header = ( {FeaturesRef, HowItWorksCardRef, PricingRef} ) => {
             <div className='font-semibold text-lg cursor-pointer' onClick={scrollToPricing}>
               Pricing
             </div>
-            <a href="https://gondolin-app.s3.us-east-2.amazonaws.com/Gondolin-1.0.4-arm64.dmg" download="Gondolin.dmg" className="py-3 px-6 mr-4 font-semibold rounded-lg bg-blue-700 text-white">
+            <Link className="py-3 px-6 mr-4 font-semibold rounded-lg bg-blue-700 text-white" to="/download">
               Download
-            </a>
+            </Link>
           </div>
         </div>
     );
