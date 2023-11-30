@@ -3,7 +3,7 @@ import windows from './images/windows.png'
 
 const DownloadPage = () => {
     return (
-        <div className="flex flex-row items-center justify-center h-screen gap-16">
+        <div className="flex flex-row items-center justify-center h-screen gap-16 bg-slate-200">
             <div className="flex flex-col items-center justify-center p-8 border-2 border-blue-700 shadow-lg rounded-lg">
                 <img alt="" src={apple} className='w-auto h-[185px]'/>
                 <div className='my-4 font-semibold'>Mac</div>
