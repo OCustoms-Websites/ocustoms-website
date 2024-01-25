@@ -6,6 +6,7 @@ import chrome from './images/chrome.png'
 import brave from './images/brave.png'
 import edge from './images/edge.png'
 import opera from './images/opera.png'
+import mobileapp from './images/gdln_mobileapp_ss.png'
 import React from 'react';
 
 
@@ -65,6 +66,19 @@ const Features = React.forwardRef((props, ref) => {
                         <div className='mt-2 text-center'>
                             Gondolin unifies your focus by simultaneously monitoring multiple browser activities directly from its desktop app, ensuring a distraction-free workflow from a single desktop application, no matter where you browse.
                         </div>
+                    </div>
+                </div>
+                <div className="flex flex-row gap-[200px] items-center">
+                    <div className='flex flex-col w-[300px]'>
+                        <div className='font-black text-xl text-center text-blue-700'>
+                            Mobile App Integration
+                        </div>
+                        <div className='mt-2 text-center'>
+                        Gondolin's mobile app syncs with your desktop to block distracting apps during focus sessions. Experience uninterrupted productivity on-the-go, ensuring a seamless, distraction-free digital environment across all your devices.
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="" src={mobileapp} className='rounded-lg w-[120px] ml-[173px]'/>
                     </div>
                 </div>
             </div>

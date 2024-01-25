@@ -13,11 +13,11 @@ const HowItWorks = React.forwardRef((props, ref) => {
             <div className="flex flex-col mt-16 items-center gap-4">
                 <div className="flex flex-row gap-8">
                     <HowItWorksCard step={"01"} title={"Install With Ease"} description={"Effortlessly integrate Gondolin Extensions with your preferred browsers. Just a one-time setup, and you're all set for distraction-free sessions across all browsers."}/>
-                    <HowItWorksCard step={"02"} title={"Set Up for Success"} description={"Apply the previous step across all your selected browsers. With Gondolin, transform the internet into a tool of productivity, ready to assist you in every task."}/>
+                    <HowItWorksCard step={"02"} title={"Set Up for Success"} description={"Apply the previous step across all your selected browsers. For mobile functionality, download the iOS app. With Gondolin, transform the internet into a tool of productivity, ready to assist you in every task."}/>
                 </div>
                 <div className="flex flex-row gap-8">
                     <HowItWorksCard step={"03"} title={"Customize Your Focus"} description={"Launch Gondolin and share your current task. The AI works better with more details, fine-tuning your web environment for a bespoke browsing experience."}/>
-                    <HowItWorksCard step={"04"} title={"Begin Your Focused Journey"} description={"A single click activates Gondolin, which starts to block out distractions across all browsers, aligning your web usage with your goals. Step into your work with newfound clarity."}/>
+                    <HowItWorksCard step={"04"} title={"Begin Your Focused Journey"} description={"A single click activates Gondolin, which starts to block out distractions across all browsers and devices, aligning your web usage with your goals. Step into your work with newfound clarity."}/>
                 </div>
 
             </div>
