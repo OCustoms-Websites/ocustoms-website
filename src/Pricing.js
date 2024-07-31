@@ -45,10 +45,7 @@ const Pricing = React.forwardRef((props, ref) => {
                         Unlimited Focus Sessions
                     </div>
                     <div className=" mb-2">
-                        GPT-4 Focus Assistant
-                    </div>
-                    <div className=" mb-8">
-                        Mobile App Access
+                        GPT-4o Mini Focus Assistant
                     </div>
                     <Link to="/download" className="py-2 px-36 bg-blue-700 text-white items-center rounded-lg">
                         Get Started

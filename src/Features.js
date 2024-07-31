@@ -68,7 +68,7 @@ const Features = React.forwardRef((props, ref) => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row gap-[200px] items-center">
+                {/* <div className="flex flex-row gap-[200px] items-center">
                     <div className='flex flex-col w-[300px]'>
                         <div className='font-black text-xl text-center text-blue-700'>
                             Mobile App Integration
@@ -80,7 +80,7 @@ const Features = React.forwardRef((props, ref) => {
                     <div>
                         <img alt="" src={mobileapp} className='rounded-lg w-[120px] ml-[173px]'/>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
