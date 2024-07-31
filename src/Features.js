@@ -6,7 +6,7 @@ import chrome from './images/chrome.png'
 import brave from './images/brave.png'
 import edge from './images/edge.png'
 import opera from './images/opera.png'
-import mobileapp from './images/gdln_mobileapp_ss.png'
+// import mobileapp from './images/gdln_mobileapp_ss.png'
 import React from 'react';
 
 
