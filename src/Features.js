@@ -17,7 +17,7 @@ const Features = React.forwardRef((props, ref) => {
                 FEATURES
             </div>
             <div className="text-3xl font-bold text-center mb-24">
-                <i className="text-blue-700">Discover</i> What Gondolin Can Do
+                <i className="text-blue-700">Explore</i> Our Platform
             </div>
             <div className="flex flex-col gap-[150px]">
                 <div className="flex flex-row gap-[200px] items-center">
@@ -28,20 +28,20 @@ const Features = React.forwardRef((props, ref) => {
                     </div>
                     <div className='flex flex-col w-[300px]'>
                         <div className='font-black text-xl text-center text-blue-700'>
-                            AI-Powered Focus
+                            Portfolio galleries
                         </div>
                         <div className='mt-2 text-center'>
-                            Gondolin utilizes GPT4 to intelligently discern your work-related tasks, creating a distraction-free digital environment that keeps you immersed in productivity.
+                            Showcase trips by destination, theme, or travel style.
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-row gap-[200px] items-center">
                     <div className='flex flex-col w-[300px]'>
                         <div className='font-black text-xl text-center text-blue-700'>
-                            Smart Blocking
+                            Reviews & social proof
                         </div>
                         <div className='mt-2 text-center'>
-                            Smart Blocking intuitively filters out websites that detract from your task, employing GPT4 to adapt in real-time to your tasks and maintain your focus.
+                            Highlight testimonials and badges that build trust.
                         </div>
                     </div>
                     <div>
@@ -61,26 +61,26 @@ const Features = React.forwardRef((props, ref) => {
                     </div>
                     <div className='flex flex-col w-[300px] ml-20'>
                         <div className='font-black text-xl text-center text-blue-700'>
-                            Cross-Browser Support
+                            Integrations
                         </div>
                         <div className='mt-2 text-center'>
-                            Gondolin unifies your focus by simultaneously monitoring multiple browser activities directly from its desktop app, ensuring a distraction-free workflow from a single desktop application, no matter where you browse.
+                            Calendly, Google Forms, Mailchimp, Meta Pixel, Google Analytics.
                         </div>
                     </div>
                 </div>
-                {/* <div className="flex flex-row gap-[200px] items-center">
+                <div className="flex flex-row gap-[200px] items-center">
                     <div className='flex flex-col w-[300px]'>
                         <div className='font-black text-xl text-center text-blue-700'>
-                            Mobile App Integration
+                            Hosting & care
                         </div>
                         <div className='mt-2 text-center'>
-                        Gondolin's mobile app syncs with your desktop to block distracting apps during focus sessions. Experience uninterrupted productivity on-the-go, ensuring a seamless, distraction-free digital environment across all your devices.
+                            We host, monitor, and keep everything updated.
                         </div>
                     </div>
                     <div>
-                        <img alt="" src={mobileapp} className='rounded-lg w-[120px] ml-[173px]'/>
+                        <img alt="" src={openai} className='rounded-lg w-[250px] ml-24'/>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )

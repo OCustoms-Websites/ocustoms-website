@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## ocustoms configuration
+
+- Update pricing in `src/Pricing.js` (look for `$XX/mo` placeholders).
+- Replace the contact email in `src/Footer.js`.
+- Add production analytics IDs in `public/index.html` where noted.
+- Set real social media URLs in `src/Footer.js` if added.
+

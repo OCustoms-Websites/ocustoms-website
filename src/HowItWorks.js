@@ -5,19 +5,19 @@ const HowItWorks = React.forwardRef((props, ref) => {
     return (
         <div ref={ref} className="flex flex-col pb-10 pt-10">
             <div className="text-center font-semibold text-blue-700 mb-4 text-xs">
-                HOW DOES IT WORK?
+                WHY OCUSTOMS
             </div>
             <div className="text-3xl font-bold text-center">
-                <i className="text-blue-700">Unlock</i> Your Productivity with Gondolin
+                Everything you need, built in.
             </div>
             <div className="flex flex-col mt-16 items-center gap-4">
                 <div className="flex flex-row gap-8">
-                    <HowItWorksCard step={"01"} title={"Install With Ease"} description={"Effortlessly integrate Gondolin Extensions with your preferred browsers. Just a one-time setup, and you're all set for distraction-free sessions across all browsers."}/>
-                    <HowItWorksCard step={"02"} title={"Set Up for Success"} description={"Apply the previous step across all your selected browsers, with Gondolin, transform the internet into a tool of productivity, ready to assist you in every task."}/>
+                    <HowItWorksCard step={"01"} title={"Done-for-you build"} description={"We design, write, and launch your site so you don’t have to."}/>
+                    <HowItWorksCard step={"02"} title={"Lead capture that works"} description={"Inquiry forms, calendar booking, and CTA placements optimized for conversion."}/>
                 </div>
                 <div className="flex flex-row gap-8">
-                    <HowItWorksCard step={"03"} title={"Customize Your Focus"} description={"Launch Gondolin and share your current task. The AI works better with more details, fine-tuning your web environment for a bespoke browsing experience."}/>
-                    <HowItWorksCard step={"04"} title={"Begin Your Focused Journey"} description={"A single click activates Gondolin, which starts to block out distractions across all browsers and devices, aligning your web usage with your goals. Step into your work with newfound clarity."}/>
+                    <HowItWorksCard step={"03"} title={"SEO & speed"} description={"Technical SEO, fast load times, and best practices baked in."}/>
+                    <HowItWorksCard step={"04"} title={"Easy updates"} description={"Send edits anytime or make quick changes yourself—your choice."}/>
                 </div>
 
             </div>

@@ -1,5 +1,4 @@
-import logo from './images/gdln_desktop.png'
-import { Link } from 'react-router-dom';
+import React from 'react';
 
 const Footer = () => {
     return (
@@ -7,30 +6,30 @@ const Footer = () => {
             <div className="flex flex-col">
                 <div className="flex flex-row justify-between pb-24">
                     <div className="flex ml-16 text-3xl text-white font-bold items-center">
-                        Empower Your Browsing Today with Gondolin.
+                        Build your travel portfolio website with ocustoms.
                     </div>
-                    <Link to="/download" className="flex text-blue-700 bg-white py-4 px-6 rounded-lg text-l mr-24 font-semibold items-center">
-                        Try it Now
-                    </Link>
+                    <div onClick={() => document.getElementById('contact').scrollIntoView({behavior:'smooth'})} className="flex text-blue-700 bg-white py-4 px-6 rounded-lg text-l mr-24 font-semibold items-center cursor-pointer">
+                        Get a Demo
+                    </div>
                 </div>
                 <div className="bg-white p-6">
                     <div className='flex justify-between'>
                         <div className='flex flex-row items-center'>
-                            <img alt="" src={logo} className='w-20 h-auto'/>
-                            <div className='flex font-semibold items-center ml-1 text-blue-700'>Gondolin</div>
+                            <img alt="ocustoms" src="/logo-ocustoms.svg" className='w-20 h-auto'/>
+                            <div className='flex font-semibold items-center ml-1 text-blue-700'>ocustoms digital solutions</div>
                         </div>
                         <div className='flex flex-col'>
                             <div className='font-black text-blue-700'>
-                                Support
+                                Contact
                             </div>
-                            <div className='font-medium text-blue-700 mt-2'>
-                                Sahith Thumma
-                            </div>
-                            <div className='text-blue-700'>
-                                sahith.thumma@gmail.com
+                            <div className='text-blue-700 mt-2'>
+                                hello@ocustoms.co {/* TODO: replace with business email */}
                             </div>
                         </div>
 
+                    </div>
+                    <div className='text-center text-xs mt-4'>
+                        © {new Date().getFullYear()} ocustoms digital solutions. All rights reserved.
                     </div>
                 </div>
 
