@@ -14,35 +14,21 @@ const Pricing = React.forwardRef((props, ref) => {
                 Pause or cancel anytime. No long-term contracts.
             </div>
             <div className='flex flex-row gap-10 mt-16'>
-                <div className="flex flex-col py-4 px-10 rounded-lg bg-slate-200 shadow-lg">
-                    <div className="font-medium">
-                        Starter
-                    </div>
-                    <div className="font-black mt-2 text-4xl text-blue-700">
-                        $XX/mo
-                    </div>
-                    <div className="font-semibold mb-4">
-                        Great for solo advisors getting online.
-                    </div>
-                    <Link to="#contact" className="py-2 px-36 bg-blue-700 text-white items-center rounded-lg">
-                        Get Started
-                    </Link>
-                </div>
-                <div className="flex flex-col py-4 px-10 rounded-lg bg-slate-200 shadow-lg">
+                <div className="flex flex-col py-4 px-10 rounded-lg bg-slate-200 shadow-lg w-[360px] min-h-[220px] transform transition-transform duration-500 ease-out hover:scale-[1.15] hover:shadow-xl hover:z-10">
                     <div className="font-medium">
                         Pro
                     </div>
                     <div className="font-black mt-2 text-4xl text-blue-700">
-                        $XX/mo
+                    $149/mo
                     </div>
                     <div className="font-semibold mb-4">
-                        Advanced templates, analytics, priority support.
+                        Great for solo advisors.
                     </div>
-                    <Link to="#contact" className="py-2 px-36 bg-blue-700 text-white items-center rounded-lg">
-                        Get Started
-                    </Link>
+                    <a href="https://calendly.com/ocustomsllc-info/30min" className="py-2 bg-blue-700 text-white items-center rounded-lg w-full text-center">
+                        Contact Us
+                    </a>
                 </div>
-                <div className="flex flex-col py-4 px-10 rounded-lg bg-slate-200 shadow-lg">
+                <div className="flex flex-col py-4 px-10 rounded-lg bg-slate-200 shadow-lg w-[360px] min-h-[220px] transform transition-transform duration-500 ease-out hover:scale-[1.15] hover:shadow-xl hover:z-10">
                     <div className="font-medium">
                         Agency
                     </div>
@@ -52,9 +38,9 @@ const Pricing = React.forwardRef((props, ref) => {
                     <div className="font-semibold mb-4">
                         Multi-advisor & multi-site options.
                     </div>
-                    <Link to="#contact" className="py-2 px-36 bg-blue-700 text-white items-center rounded-lg">
+                    <a href="https://calendly.com/ocustomsllc-info/30min" className="py-2 bg-blue-700 text-white items-center rounded-lg w-full text-center">
                         Contact Us
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div className="text-xs mt-4">

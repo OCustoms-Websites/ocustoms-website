@@ -21,5 +21,17 @@ code {
   to { opacity: 1; }
 }
 .fade-in {
-  animation: fade-in 2s ease-out;
+  animation: fade-in 3s ease-out;
+}
+
+/* Card-specific fade-in with fill mode and no default delay */
+.fade-in-card {
+  opacity: 0;
+}
+
+.fade-in-card.in-view {
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }

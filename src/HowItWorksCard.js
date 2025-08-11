@@ -1,6 +1,6 @@
-const HowItWorksCard = ({step, title, description}) => {
+const HowItWorksCard = ({step, title, description, delay = 0, active = false}) => {
     return (
-        <div className="flex flex-row p-4 hover:bg-white w-[400px] rounded-lg">
+        <div className={`flex flex-row p-4 hover:bg-white w-[400px] rounded-lg fade-in-card ${active ? 'in-view' : ''}`} style={{ animationDelay: `${delay}ms` }}>
             <div className="font-black text-4xl text-blue-700 mr-4">
                 {step}
             </div>

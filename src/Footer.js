@@ -8,9 +8,9 @@ const Footer = () => {
                     <div className="flex ml-16 text-3xl text-white font-bold items-center">
                         Build your travel portfolio website with ocustoms.
                     </div>
-                    <div onClick={() => document.getElementById('contact').scrollIntoView({behavior:'smooth'})} className="flex text-blue-700 bg-white py-4 px-6 rounded-lg text-l mr-24 font-semibold items-center cursor-pointer">
-                        Get a Demo
-                    </div>
+                    <a href="https://calendly.com/ocustomsllc-info/30min" className="flex text-blue-700 bg-white py-4 px-6 rounded-lg text-l mr-24 font-semibold items-center cursor-pointer">
+                        Contact Us
+                    </a>
                 </div>
                 <div className="bg-white p-6">
                     <div className='flex justify-between'>
@@ -23,7 +23,7 @@ const Footer = () => {
                                 Contact
                             </div>
                             <div className='text-blue-700 mt-2'>
-                                hello@ocustoms.co {/* TODO: replace with business email */}
+                                info@ocustomsllc.com
                             </div>
                         </div>
 
